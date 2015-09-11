@@ -4,6 +4,9 @@ Railway oriented programming
 Implementation of module described here:
 http://zohaib.me/railway-programming-pattern-in-elixir/
 
+Same thing can be achieved using Error monad:
+http://zohaib.me/monads-in-elixir-2/
+
 ## tl;dr
 
 Instead of `|>` we can use `>>>` to pipe `{:ok, val} | {:error, error}` returning functions.
